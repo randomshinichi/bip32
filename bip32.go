@@ -21,7 +21,7 @@ const (
 	FirstHardenedChild = uint32(0x80000000)
 
 	// masterKey is the "Key" value specified by bip32 for the master key
-	masterKey = "Bitcoin seed"
+	masterKey = "ed25519 seed"
 )
 
 // Error wraps bip32 errors
